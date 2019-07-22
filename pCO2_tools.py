@@ -1,5 +1,11 @@
 """
 Common tools used to correct and calculate pCO2, fCO2 and fluxes
+
+Please cite the use of this code as Gregor et al. (2019) but make sure to
+reference Woolf et al. (2016) if the woolf flux method is used. Same applies
+for all other functions in this script (Weiss 1974, Dickson et al. 2007 ...)
+
+https://doi.org/10.5194/gmd-2019-46
 """
 
 
