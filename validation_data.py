@@ -68,7 +68,7 @@ def download_file(url, prefix='./', overwrite=True):
         return None
 
 
-def carioca_processing(working_dir='/Users/luke/Desktop/'):
+def carioca_processing(working_dir):
     """
     Downloads, concatenates and grids CARIOCA data downloaded from PANGEA
     """
@@ -180,7 +180,7 @@ def carioca_processing(working_dir='/Users/luke/Desktop/'):
     return xda
 
 
-def GLODAPv2_processing(working_dir='/Users/luke/Desktop', max_depth=15):
+def GLODAPv2_processing(working_dir, max_depth=15):
 
     def glodap_download(working_dir):
         url = "https://www.glodap.info/glodap_files/v2.2019/GLODAPv2.2019_Merged_Master_File.csv.zip"
